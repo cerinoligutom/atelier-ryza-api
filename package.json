@@ -1,6 +1,6 @@
 {
-  "name": "graphql-starter",
-  "description": "GraphQL Starter",
+  "name": "atelier-ryza-api",
+  "description": "Atelier Ryza API",
   "scripts": {
     "prestart": "graphql-codegen",
     "start": "concurrently \"npm run nodemon\" \"npm run generate:gql-types\" ",
