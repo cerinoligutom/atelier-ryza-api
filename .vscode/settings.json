@@ -1,5 +1,6 @@
 {
   "cSpell.words": [
+    "callsite",
     "codegen",
     "dataloader",
     "dataloaders",
@@ -14,5 +15,6 @@
     "printf",
     "pubsub",
     "ryza"
-  ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }

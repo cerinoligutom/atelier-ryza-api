@@ -13,6 +13,8 @@ import { createServer } from 'http';
 import { initRoutes } from './routes';
 import { initApolloGraphqlServer } from './graphql';
 
+import './data';
+
 const app = express();
 
 const startApp = async () => {
