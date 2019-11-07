@@ -1,0 +1,17 @@
+version: '3'
+services:
+  api:
+    build: .
+    command: npm start
+    restart: always
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules # https://stackoverflow.com/a/32785014
+
+    ports:
+      - '8080:8080'
+      - '9229:9229'
+
+volumes:
+  postgres-data:
+    # external: true # https://github.com/docker/for-win/issues/445#issuecomment-405185621

@@ -1,0 +1,7 @@
+extend type Query {
+  node(id: ID!): Node @deprecated
+}
+
+interface Node {
+  id: ID!
+}

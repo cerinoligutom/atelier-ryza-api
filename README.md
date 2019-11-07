@@ -1,1 +1,1 @@
-# atelier-ryza-api
+# Atelier Ryza API
