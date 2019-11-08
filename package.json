@@ -88,6 +88,7 @@
     "lodash": "^4.17.15",
     "merge-graphql-schemas": "^1.7.3",
     "morgan": "^1.9.1",
+    "natural-orderby": "^2.0.3",
     "ts-node": "^8.4.1",
     "typescript": "^3.7.2",
     "winston": "^3.2.1",
