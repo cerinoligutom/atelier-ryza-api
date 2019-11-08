@@ -19,17 +19,19 @@ interface IStrMonsterName {
 
 const FILE_NAME = 'str_monster_name';
 
-preprocessData<IStrMonsterNameXML, IStrMonsterName[]>(FILE_NAME, __dirname, data =>
-  data.Root.str.map(x => {
-    const { String_No, Text } = x.$;
+export const preprocessStrMonsterName = async () => {
+  return preprocessData<IStrMonsterNameXML, IStrMonsterName[]>(FILE_NAME, __dirname, data =>
+    data.Root.str.map(x => {
+      const { String_No, Text } = x.$;
 
-    const processedData: IStrMonsterName = {
-      no: String_No,
-      text: Text,
-    };
+      const processedData: IStrMonsterName = {
+        no: String_No,
+        text: Text,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const strMonsterName = getProcessedData<IStrMonsterName[]>(FILE_NAME, __dirname);

@@ -19,17 +19,19 @@ interface IFieldMixCat {
 
 const FILE_NAME = 'FieldMixCat';
 
-preprocessData<IFieldMixCatXML, IFieldMixCat[]>(FILE_NAME, __dirname, data =>
-  data.Root.FieldMixCat.map(x => {
-    const { No, category } = x.$;
+export const preprocessFieldMixCat = async () => {
+  return preprocessData<IFieldMixCatXML, IFieldMixCat[]>(FILE_NAME, __dirname, data =>
+    data.Root.FieldMixCat.map(x => {
+      const { No, category } = x.$;
 
-    const processedData: IFieldMixCat = {
-      category,
-      no: No,
-    };
+      const processedData: IFieldMixCat = {
+        category,
+        no: No,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const fieldMixCat = getProcessedData<IFieldMixCat[]>(FILE_NAME, __dirname);

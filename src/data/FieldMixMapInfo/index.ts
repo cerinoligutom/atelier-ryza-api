@@ -30,19 +30,21 @@ interface IFieldMixMapInfo {
 
 const FILE_NAME = 'FieldMixMapInfo';
 
-preprocessData<IFieldMixMapInfoXML, IFieldMixMapInfo[]>(FILE_NAME, __dirname, data =>
-  data.Root.FieldMixMapInfo.map(x => {
-    const { No, stringID, enemy, boss } = x.$;
+export const preprocessFieldMixMapInfo = async () => {
+  return preprocessData<IFieldMixMapInfoXML, IFieldMixMapInfo[]>(FILE_NAME, __dirname, data =>
+    data.Root.FieldMixMapInfo.map(x => {
+      const { No, stringID, enemy, boss } = x.$;
 
-    const processedData: IFieldMixMapInfo = {
-      bossId: boss,
-      enemyId: enemy,
-      no: No,
-      stringId: stringID,
-    };
+      const processedData: IFieldMixMapInfo = {
+        bossId: boss,
+        enemyId: enemy,
+        no: No,
+        stringId: stringID,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const fieldMixMapInfo = getProcessedData<IFieldMixMapInfo[]>(FILE_NAME, __dirname);

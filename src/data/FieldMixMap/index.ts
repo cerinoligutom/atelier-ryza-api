@@ -28,20 +28,22 @@ interface IFieldMixMap {
 
 const FILE_NAME = 'FieldMixMap';
 
-preprocessData<IFieldMixMapXML, IFieldMixMap[]>(FILE_NAME, __dirname, data =>
-  data.Root.FieldMixMap.map(x => {
-    const { No, l, g, p, i, s } = x.$;
-    const processedData: IFieldMixMap = {
-      no: No,
-      level: +l,
-      cost: +g,
-      password: p,
-      fieldMixMapInfo: i,
-      subItem: s,
-    };
+export const preprocessFieldMixMap = async () => {
+  return preprocessData<IFieldMixMapXML, IFieldMixMap[]>(FILE_NAME, __dirname, data =>
+    data.Root.FieldMixMap.map(x => {
+      const { No, l, g, p, i, s } = x.$;
+      const processedData: IFieldMixMap = {
+        no: No,
+        level: +l,
+        cost: +g,
+        password: p,
+        fieldMixMapInfo: i,
+        subItem: s,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const fieldMixMap = getProcessedData<IFieldMixMap[]>(FILE_NAME, __dirname);

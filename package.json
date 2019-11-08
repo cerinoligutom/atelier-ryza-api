@@ -2,6 +2,7 @@
   "name": "atelier-ryza-api",
   "description": "Atelier Ryza API",
   "scripts": {
+    "preprocess": "ts-node preprocess.ts",
     "prestart": "graphql-codegen",
     "start": "concurrently \"npm run nodemon\" \"npm run generate:gql-types\" ",
     "production": "ts-node src/app.ts",

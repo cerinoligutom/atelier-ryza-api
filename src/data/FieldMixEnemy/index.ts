@@ -21,18 +21,20 @@ interface IFieldMixEnemy {
 
 const FILE_NAME = 'FieldMixEnemy';
 
-preprocessData<IFieldMixEnemyXML, IFieldMixEnemy[]>(FILE_NAME, __dirname, data =>
-  data.Root.FieldMixEnemy.map(x => {
-    const { No, encountGroupTag, enemySymbolTag } = x.$;
+export const preprocessFieldMixEnemy = async () => {
+  return preprocessData<IFieldMixEnemyXML, IFieldMixEnemy[]>(FILE_NAME, __dirname, data =>
+    data.Root.FieldMixEnemy.map(x => {
+      const { No, encountGroupTag, enemySymbolTag } = x.$;
 
-    const processedData: IFieldMixEnemy = {
-      enemySymbolTag,
-      no: No,
-      encounterGroupTag: encountGroupTag,
-    };
+      const processedData: IFieldMixEnemy = {
+        enemySymbolTag,
+        no: No,
+        encounterGroupTag: encountGroupTag,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const fieldMixEnemy = getProcessedData<IFieldMixEnemy[]>(FILE_NAME, __dirname);

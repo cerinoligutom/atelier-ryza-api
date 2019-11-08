@@ -19,17 +19,19 @@ interface IStrFieldMixMap {
 
 const FILE_NAME = 'str_field_mix_map';
 
-preprocessData<IStrFieldMixMapXML, IStrFieldMixMap[]>(FILE_NAME, __dirname, data =>
-  data.Root.str.map(x => {
-    const { String_No, Text } = x.$;
+export const preprocessStrFieldMixMap = async () => {
+  return preprocessData<IStrFieldMixMapXML, IStrFieldMixMap[]>(FILE_NAME, __dirname, data =>
+    data.Root.str.map(x => {
+      const { String_No, Text } = x.$;
 
-    const processedData: IStrFieldMixMap = {
-      no: String_No,
-      text: Text,
-    };
+      const processedData: IStrFieldMixMap = {
+        no: String_No,
+        text: Text,
+      };
 
-    return processedData;
-  }),
-);
+      return processedData;
+    }),
+  );
+};
 
 export const strFieldMixMap = getProcessedData<IStrFieldMixMap[]>(FILE_NAME, __dirname);
