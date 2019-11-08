@@ -5,7 +5,7 @@
     "preprocess": "ts-node preprocess.ts",
     "prestart": "graphql-codegen",
     "start": "concurrently \"npm run nodemon\" \"npm run generate:gql-types\" ",
-    "production": "ts-node src/app.ts",
+    "production": "ts-node --transpile-only src/app.ts",
     "ts-node": "ts-node",
     "nodemon": "nodemon -L",
     "lint": "tslint -p tsconfig.json",
