@@ -1,1638 +1,1090 @@
-{
-  "Root": {
-    "str": [
-      {
-        "$": {
-          "String_No": "1507329",
-          "Text": "Nameless Grass Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507330",
-          "Text": "Fresh Berry Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507331",
-          "Text": "Rainbow Grape Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507332",
-          "Text": "Blue Clover Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507333",
-          "Text": "Cotton Grass Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507334",
-          "Text": "Tough Log Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507335",
-          "Text": "Silver Uni Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507336",
-          "Text": "Maple Leaf Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507337",
-          "Text": "Mushroom Colony Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507338",
-          "Text": "Fossil Tree Forest"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507339",
-          "Text": "Health Flower Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507340",
-          "Text": "Uni Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507341",
-          "Text": "Eicheloa Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507342",
-          "Text": "Restraint Silk Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507343",
-          "Text": "Spirit Flower Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507344",
-          "Text": "Poison Grass Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507345",
-          "Text": "Sweet Leaf Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507346",
-          "Text": "Silver Beehive Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507347",
-          "Text": "Blessed Pure Flower Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507348",
-          "Text": "Ancient Branch Grove"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507349",
-          "Text": "Northern Wind Flower Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507350",
-          "Text": "Wasser Wheat Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507351",
-          "Text": "Eiche Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507352",
-          "Text": "Oil Tree Fruit Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507353",
-          "Text": "Lantern Grass Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507354",
-          "Text": "Palma Fruit Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507355",
-          "Text": "Bubble Grass Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507356",
-          "Text": "Jupitonion Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507357",
-          "Text": "Memorial Mist Flower Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507358",
-          "Text": "Arbor Ivy Meadow"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507359",
-          "Text": "Sunny Honey Flower Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507360",
-          "Text": "Fodder Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507361",
-          "Text": "Beehive Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507362",
-          "Text": "Tough Vine Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507363",
-          "Text": "Spirit Feather Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507364",
-          "Text": "Mossy Driftwood Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507365",
-          "Text": "Dream Mushroom Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507366",
-          "Text": "Serenity Flower Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507367",
-          "Text": "Serene Moon Flower Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507368",
-          "Text": "Underworld Rotwood Garden"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507369",
-          "Text": "Small Crystal Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507370",
-          "Text": "Lightning Ore Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507371",
-          "Text": "Nectar Rock Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507372",
-          "Text": "Flame Black Sand Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507373",
-          "Text": "Snake Slough Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507374",
-          "Text": "Ancient Pillar Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507375",
-          "Text": "Shell Pearl Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507376",
-          "Text": "Beast Fossil Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507377",
-          "Text": "Cave Coral Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507378",
-          "Text": "Riverstone Trail"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507379",
-          "Text": "Crimson Ore Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507380",
-          "Text": "Dried Lumber Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507381",
-          "Text": "Large Feather Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507382",
-          "Text": "Koberinite Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507383",
-          "Text": "Magma Powder Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507384",
-          "Text": "Magnemalmoa Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507385",
-          "Text": "Old Knight Emblem Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507386",
-          "Text": "Dragon Meat Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507387",
-          "Text": "Earth Fish Fang Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507388",
-          "Text": "Mordinite Quarry"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507389",
-          "Text": "Aqua Ore Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507390",
-          "Text": "Rusted Sword Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507391",
-          "Text": "Large Bone Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507392",
-          "Text": "Mystery Gemstone Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507393",
-          "Text": "Waterside Moss Stone Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507394",
-          "Text": "Beast Shell Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507395",
-          "Text": "Amber Fragment Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507396",
-          "Text": "Stalactite Fragment Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507397",
-          "Text": "Coral Stone Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507398",
-          "Text": "Blue Flame Riverstone Path"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507399",
-          "Text": "Sandstone Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507400",
-          "Text": "Amatite Ore Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507401",
-          "Text": "Eroded Stone Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507402",
-          "Text": "Animal Hide Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507403",
-          "Text": "Pentanite Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507404",
-          "Text": "Beast Scales Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507405",
-          "Text": "Cometstone Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507406",
-          "Text": "Atonement Stinger Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507407",
-          "Text": "Dragon Wing Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507408",
-          "Text": "Ethereal Stone Bluff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507409",
-          "Text": "Clean Water Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507410",
-          "Text": "Sardine Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507411",
-          "Text": "Taun Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507412",
-          "Text": "Exofish Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507413",
-          "Text": "Green Puniball Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507414",
-          "Text": "Beast Fin Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507415",
-          "Text": "Selior Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507416",
-          "Text": "Xisor Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507417",
-          "Text": "Maple Bark Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507418",
-          "Text": "Black Puniball Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507419",
-          "Text": "Goat's Milk Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507420",
-          "Text": "Wild Potato Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507421",
-          "Text": "Blue Puniball Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507422",
-          "Text": "Crab Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507423",
-          "Text": "Unknown Egg Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507424",
-          "Text": "Roteswasser Tonic Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507425",
-          "Text": "Fertile Soil Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507426",
-          "Text": "Crimson Grass Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507427",
-          "Text": "Foamy Water Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507428",
-          "Text": "Fresh Meat Beach"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507429",
-          "Text": "Scrap Paper Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507430",
-          "Text": "Pretty Shell Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507431",
-          "Text": "Beast Meat Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507432",
-          "Text": "Plant Essence Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507433",
-          "Text": "Natural Oil Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507434",
-          "Text": "Spikey Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507435",
-          "Text": "Palma Bark Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507436",
-          "Text": "Medicine Moss Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507437",
-          "Text": "Jade Water Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507438",
-          "Text": "Mutant Taun Ocean"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507439",
-          "Text": "Kurken Fruit Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507440",
-          "Text": "Purumuru Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507441",
-          "Text": "Flammable Bark Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507442",
-          "Text": "Bitter Root Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507443",
-          "Text": "Tall Taun Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507444",
-          "Text": "Red Puniball Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507445",
-          "Text": "Sapling Branch Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507446",
-          "Text": "Honey Tree Branch Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507447",
-          "Text": "Smoky Charcoal Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507448",
-          "Text": "Sawe Fish Shore"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507449",
-          "Text": "Seven Stars Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507450",
-          "Text": "Kumine Fruit Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507451",
-          "Text": "Kumine Poison Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507452",
-          "Text": "Emerald Glass Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507453",
-          "Text": "Giant Beetle Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507454",
-          "Text": "Fragrant Honey Tree Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507455",
-          "Text": "Lunatic Poison Lance Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507456",
-          "Text": "Resentful Scream Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507457",
-          "Text": "Rotwood Miasma Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507458",
-          "Text": "Lapis Papillion Ruins"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507459",
-          "Text": "Soft Sand Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507460",
-          "Text": "Fairystone Fragment Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507461",
-          "Text": "Burning Sand Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507462",
-          "Text": "Polluted Humus Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507463",
-          "Text": "Bomb Dragoon Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507464",
-          "Text": "Rotten Tree Bark Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507465",
-          "Text": "Spear Worm Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507466",
-          "Text": "Underworld Core Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507467",
-          "Text": "Old Magic Tome Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507468",
-          "Text": "Holy Tree Leaf Remnants"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507469",
-          "Text": "Honey Ant Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507470",
-          "Text": "Ashen Sand Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507471",
-          "Text": "Rose Bee Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507472",
-          "Text": "Mushroom Powder Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507473",
-          "Text": "Sky Bubble Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507474",
-          "Text": "Dark Crystal Fragment Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507475",
-          "Text": "Gold Beehive Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507476",
-          "Text": "Amber Fly Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507477",
-          "Text": "Forest Sage Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507478",
-          "Text": "Mythical Hide Tower"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507479",
-          "Text": "Wing Plant Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507480",
-          "Text": "Beast Venom Pouch Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507481",
-          "Text": "Lantern Fly Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507482",
-          "Text": "Magic Tome Piece Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507483",
-          "Text": "Crispy Mushroom Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507484",
-          "Text": "Nectar Fruit Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507485",
-          "Text": "Nightglow Flower Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507486",
-          "Text": "Spring Princess Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507487",
-          "Text": "Medium Medicine Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507488",
-          "Text": "Esplante Locale"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507489",
-          "Text": "Lucky Clover Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507490",
-          "Text": "Holy Arbor Branch Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507491",
-          "Text": "Wasser Wheat Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507492",
-          "Text": "Cotton Grass Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507493",
-          "Text": "Bubble Grass Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507494",
-          "Text": "Memorial Mist Flower Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507495",
-          "Text": "Palma Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507496",
-          "Text": "Gold Uni Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507497",
-          "Text": "Rainbow Grape Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507498",
-          "Text": "Lantern Grass Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507499",
-          "Text": "Maple Leaf Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507500",
-          "Text": "Fossil Tree Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507501",
-          "Text": "Rosen Leaf Copse^00"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507502",
-          "Text": "Nameless Grass Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507503",
-          "Text": "Eiche Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507504",
-          "Text": "Tough Log Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507505",
-          "Text": "Jupitonion Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507506",
-          "Text": "Arbor Ivy Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507507",
-          "Text": "Delphi Rose Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507508",
-          "Text": "Northern Wind Flower Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507509",
-          "Text": "Oil Tree Fruit Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507510",
-          "Text": "Palma Fruit Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507511",
-          "Text": "Mushroom Colony Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507512",
-          "Text": "Dunkelheit Copse"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507513",
-          "Text": "Amber Crystal Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507514",
-          "Text": "Rainbow Gemstone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507515",
-          "Text": "Aqua Ore Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507516",
-          "Text": "Flame Black Sand Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507517",
-          "Text": "Beast Shell Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507518",
-          "Text": "Cave Coral Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507519",
-          "Text": "Degenesis Stone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507520",
-          "Text": "Goldinite Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507521",
-          "Text": "Lightning Ore Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507522",
-          "Text": "Unknown Gemstone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507523",
-          "Text": "Shell Pearl Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507524",
-          "Text": "Coral Stone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507525",
-          "Text": "Marbled Stone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507526",
-          "Text": "Septrin Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507527",
-          "Text": "Nectar Rock Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507528",
-          "Text": "Waterside Moss Stone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507529",
-          "Text": "Beast Fossil Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507530",
-          "Text": "Riverstone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507531",
-          "Text": "Holy Arbor Crystal Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507532",
-          "Text": "Small Crystal Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507533",
-          "Text": "Large Bone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507534",
-          "Text": "Ancient Pillar Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507535",
-          "Text": "Stalactite Fragment Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507536",
-          "Text": "Blue Flame Riverstone Cliff"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507537",
-          "Text": "Silver Puniball Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507538",
-          "Text": "Myrietes Fish Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507539",
-          "Text": "Sardine Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507540",
-          "Text": "Plant Essence Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507541",
-          "Text": "Selior Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507542",
-          "Text": "Maple Bark Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507543",
-          "Text": "Mace Fish Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507544",
-          "Text": "Underworld Master Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507545",
-          "Text": "Pretty Shell Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507546",
-          "Text": "Natural Oil Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507547",
-          "Text": "Palma Bark Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507548",
-          "Text": "Jade Water Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507549",
-          "Text": "Triplet Taun Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507550",
-          "Text": "Lake Master Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507551",
-          "Text": "Taun Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507552",
-          "Text": "Beast Fin Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507553",
-          "Text": "Xisor Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507554",
-          "Text": "Black Puniball Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507555",
-          "Text": "Ether Aqua Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507556",
-          "Text": "Clean Water Outer Sea^00"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507557",
-          "Text": "Exofish Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507558",
-          "Text": "Spikey Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507559",
-          "Text": "Medicine Moss Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507560",
-          "Text": "Mutant Taun Outer Sea"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507561",
-          "Text": "Palma Charcoal Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507562",
-          "Text": "Baby Wyrm Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507563",
-          "Text": "Trihorn Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507564",
-          "Text": "Kumine Poison Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507565",
-          "Text": "Dark Crystal Fragment Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507566",
-          "Text": "Rotwood Miasma Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507567",
-          "Text": "Beast Spirit Armor Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507568",
-          "Text": "Holy Stone Fragment Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507569",
-          "Text": "Seven Stars Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507570",
-          "Text": "Emerald Glass Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507571",
-          "Text": "Lunatic Poison Lance Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507572",
-          "Text": "Forest Sage Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507573",
-          "Text": "Death's Grief Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507574",
-          "Text": "Dragon Egg Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507575",
-          "Text": "Honey Ant Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507576",
-          "Text": "Giant Beetle Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507577",
-          "Text": "Gold Beehive Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507578",
-          "Text": "Lapis Papillion Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507579",
-          "Text": "Golden Crown Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507580",
-          "Text": "Gold Puniball Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507581",
-          "Text": "Ashen Sand Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507582",
-          "Text": "Sky Bubble Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507583",
-          "Text": "Amber Fly Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507584",
-          "Text": "Mythical Hide Site"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507585",
-          "Text": "Gold Uni Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507586",
-          "Text": "Golden Crown Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507587",
-          "Text": "Gold Beehive Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507588",
-          "Text": "Magma Powder Ravin"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507589",
-          "Text": "Delphi Rose Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507590",
-          "Text": "Rotwood Miasma Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507591",
-          "Text": "Underworld Master Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507592",
-          "Text": "Rainbow Gemstone Ravine"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507593",
-          "Text": "Septrin Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507594",
-          "Text": "Polluted Humus Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507595",
-          "Text": "Rosen Leaf Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507596",
-          "Text": "Jade Water Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507597",
-          "Text": "Ethereal Stone Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507598",
-          "Text": "Atonement Stinger Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507599",
-          "Text": "Palma Charcoal Domain"
-        }
-      },
-      {
-        "$": {
-          "String_No": "1507600",
-          "Text": "Death's Grief Domain"
-        }
-      }
-    ]
+[
+  {
+    "no": "1507329",
+    "text": "Nameless Grass Forest"
+  },
+  {
+    "no": "1507330",
+    "text": "Fresh Berry Forest"
+  },
+  {
+    "no": "1507331",
+    "text": "Rainbow Grape Forest"
+  },
+  {
+    "no": "1507332",
+    "text": "Blue Clover Forest"
+  },
+  {
+    "no": "1507333",
+    "text": "Cotton Grass Forest"
+  },
+  {
+    "no": "1507334",
+    "text": "Tough Log Forest"
+  },
+  {
+    "no": "1507335",
+    "text": "Silver Uni Forest"
+  },
+  {
+    "no": "1507336",
+    "text": "Maple Leaf Forest"
+  },
+  {
+    "no": "1507337",
+    "text": "Mushroom Colony Forest"
+  },
+  {
+    "no": "1507338",
+    "text": "Fossil Tree Forest"
+  },
+  {
+    "no": "1507339",
+    "text": "Health Flower Grove"
+  },
+  {
+    "no": "1507340",
+    "text": "Uni Grove"
+  },
+  {
+    "no": "1507341",
+    "text": "Eicheloa Grove"
+  },
+  {
+    "no": "1507342",
+    "text": "Restraint Silk Grove"
+  },
+  {
+    "no": "1507343",
+    "text": "Spirit Flower Grove"
+  },
+  {
+    "no": "1507344",
+    "text": "Poison Grass Grove"
+  },
+  {
+    "no": "1507345",
+    "text": "Sweet Leaf Grove"
+  },
+  {
+    "no": "1507346",
+    "text": "Silver Beehive Grove"
+  },
+  {
+    "no": "1507347",
+    "text": "Blessed Pure Flower Grove"
+  },
+  {
+    "no": "1507348",
+    "text": "Ancient Branch Grove"
+  },
+  {
+    "no": "1507349",
+    "text": "Northern Wind Flower Meadow"
+  },
+  {
+    "no": "1507350",
+    "text": "Wasser Wheat Meadow"
+  },
+  {
+    "no": "1507351",
+    "text": "Eiche Meadow"
+  },
+  {
+    "no": "1507352",
+    "text": "Oil Tree Fruit Meadow"
+  },
+  {
+    "no": "1507353",
+    "text": "Lantern Grass Meadow"
+  },
+  {
+    "no": "1507354",
+    "text": "Palma Fruit Meadow"
+  },
+  {
+    "no": "1507355",
+    "text": "Bubble Grass Meadow"
+  },
+  {
+    "no": "1507356",
+    "text": "Jupitonion Meadow"
+  },
+  {
+    "no": "1507357",
+    "text": "Memorial Mist Flower Meadow"
+  },
+  {
+    "no": "1507358",
+    "text": "Arbor Ivy Meadow"
+  },
+  {
+    "no": "1507359",
+    "text": "Sunny Honey Flower Garden"
+  },
+  {
+    "no": "1507360",
+    "text": "Fodder Garden"
+  },
+  {
+    "no": "1507361",
+    "text": "Beehive Garden"
+  },
+  {
+    "no": "1507362",
+    "text": "Tough Vine Garden"
+  },
+  {
+    "no": "1507363",
+    "text": "Spirit Feather Garden"
+  },
+  {
+    "no": "1507364",
+    "text": "Mossy Driftwood Garden"
+  },
+  {
+    "no": "1507365",
+    "text": "Dream Mushroom Garden"
+  },
+  {
+    "no": "1507366",
+    "text": "Serenity Flower Garden"
+  },
+  {
+    "no": "1507367",
+    "text": "Serene Moon Flower Garden"
+  },
+  {
+    "no": "1507368",
+    "text": "Underworld Rotwood Garden"
+  },
+  {
+    "no": "1507369",
+    "text": "Small Crystal Trail"
+  },
+  {
+    "no": "1507370",
+    "text": "Lightning Ore Trail"
+  },
+  {
+    "no": "1507371",
+    "text": "Nectar Rock Trail"
+  },
+  {
+    "no": "1507372",
+    "text": "Flame Black Sand Trail"
+  },
+  {
+    "no": "1507373",
+    "text": "Snake Slough Trail"
+  },
+  {
+    "no": "1507374",
+    "text": "Ancient Pillar Trail"
+  },
+  {
+    "no": "1507375",
+    "text": "Shell Pearl Trail"
+  },
+  {
+    "no": "1507376",
+    "text": "Beast Fossil Trail"
+  },
+  {
+    "no": "1507377",
+    "text": "Cave Coral Trail"
+  },
+  {
+    "no": "1507378",
+    "text": "Riverstone Trail"
+  },
+  {
+    "no": "1507379",
+    "text": "Crimson Ore Quarry"
+  },
+  {
+    "no": "1507380",
+    "text": "Dried Lumber Quarry"
+  },
+  {
+    "no": "1507381",
+    "text": "Large Feather Quarry"
+  },
+  {
+    "no": "1507382",
+    "text": "Koberinite Quarry"
+  },
+  {
+    "no": "1507383",
+    "text": "Magma Powder Quarry"
+  },
+  {
+    "no": "1507384",
+    "text": "Magnemalmoa Quarry"
+  },
+  {
+    "no": "1507385",
+    "text": "Old Knight Emblem Quarry"
+  },
+  {
+    "no": "1507386",
+    "text": "Dragon Meat Quarry"
+  },
+  {
+    "no": "1507387",
+    "text": "Earth Fish Fang Quarry"
+  },
+  {
+    "no": "1507388",
+    "text": "Mordinite Quarry"
+  },
+  {
+    "no": "1507389",
+    "text": "Aqua Ore Path"
+  },
+  {
+    "no": "1507390",
+    "text": "Rusted Sword Path"
+  },
+  {
+    "no": "1507391",
+    "text": "Large Bone Path"
+  },
+  {
+    "no": "1507392",
+    "text": "Mystery Gemstone Path"
+  },
+  {
+    "no": "1507393",
+    "text": "Waterside Moss Stone Path"
+  },
+  {
+    "no": "1507394",
+    "text": "Beast Shell Path"
+  },
+  {
+    "no": "1507395",
+    "text": "Amber Fragment Path"
+  },
+  {
+    "no": "1507396",
+    "text": "Stalactite Fragment Path"
+  },
+  {
+    "no": "1507397",
+    "text": "Coral Stone Path"
+  },
+  {
+    "no": "1507398",
+    "text": "Blue Flame Riverstone Path"
+  },
+  {
+    "no": "1507399",
+    "text": "Sandstone Bluff"
+  },
+  {
+    "no": "1507400",
+    "text": "Amatite Ore Bluff"
+  },
+  {
+    "no": "1507401",
+    "text": "Eroded Stone Bluff"
+  },
+  {
+    "no": "1507402",
+    "text": "Animal Hide Bluff"
+  },
+  {
+    "no": "1507403",
+    "text": "Pentanite Bluff"
+  },
+  {
+    "no": "1507404",
+    "text": "Beast Scales Bluff"
+  },
+  {
+    "no": "1507405",
+    "text": "Cometstone Bluff"
+  },
+  {
+    "no": "1507406",
+    "text": "Atonement Stinger Bluff"
+  },
+  {
+    "no": "1507407",
+    "text": "Dragon Wing Bluff"
+  },
+  {
+    "no": "1507408",
+    "text": "Ethereal Stone Bluff"
+  },
+  {
+    "no": "1507409",
+    "text": "Clean Water Sea"
+  },
+  {
+    "no": "1507410",
+    "text": "Sardine Sea"
+  },
+  {
+    "no": "1507411",
+    "text": "Taun Sea"
+  },
+  {
+    "no": "1507412",
+    "text": "Exofish Sea"
+  },
+  {
+    "no": "1507413",
+    "text": "Green Puniball Sea"
+  },
+  {
+    "no": "1507414",
+    "text": "Beast Fin Sea"
+  },
+  {
+    "no": "1507415",
+    "text": "Selior Sea"
+  },
+  {
+    "no": "1507416",
+    "text": "Xisor Sea"
+  },
+  {
+    "no": "1507417",
+    "text": "Maple Bark Sea"
+  },
+  {
+    "no": "1507418",
+    "text": "Black Puniball Sea"
+  },
+  {
+    "no": "1507419",
+    "text": "Goat's Milk Beach"
+  },
+  {
+    "no": "1507420",
+    "text": "Wild Potato Beach"
+  },
+  {
+    "no": "1507421",
+    "text": "Blue Puniball Beach"
+  },
+  {
+    "no": "1507422",
+    "text": "Crab Beach"
+  },
+  {
+    "no": "1507423",
+    "text": "Unknown Egg Beach"
+  },
+  {
+    "no": "1507424",
+    "text": "Roteswasser Tonic Beach"
+  },
+  {
+    "no": "1507425",
+    "text": "Fertile Soil Beach"
+  },
+  {
+    "no": "1507426",
+    "text": "Crimson Grass Beach"
+  },
+  {
+    "no": "1507427",
+    "text": "Foamy Water Beach"
+  },
+  {
+    "no": "1507428",
+    "text": "Fresh Meat Beach"
+  },
+  {
+    "no": "1507429",
+    "text": "Scrap Paper Ocean"
+  },
+  {
+    "no": "1507430",
+    "text": "Pretty Shell Ocean"
+  },
+  {
+    "no": "1507431",
+    "text": "Beast Meat Ocean"
+  },
+  {
+    "no": "1507432",
+    "text": "Plant Essence Ocean"
+  },
+  {
+    "no": "1507433",
+    "text": "Natural Oil Ocean"
+  },
+  {
+    "no": "1507434",
+    "text": "Spikey Ocean"
+  },
+  {
+    "no": "1507435",
+    "text": "Palma Bark Ocean"
+  },
+  {
+    "no": "1507436",
+    "text": "Medicine Moss Ocean"
+  },
+  {
+    "no": "1507437",
+    "text": "Jade Water Ocean"
+  },
+  {
+    "no": "1507438",
+    "text": "Mutant Taun Ocean"
+  },
+  {
+    "no": "1507439",
+    "text": "Kurken Fruit Shore"
+  },
+  {
+    "no": "1507440",
+    "text": "Purumuru Shore"
+  },
+  {
+    "no": "1507441",
+    "text": "Flammable Bark Shore"
+  },
+  {
+    "no": "1507442",
+    "text": "Bitter Root Shore"
+  },
+  {
+    "no": "1507443",
+    "text": "Tall Taun Shore"
+  },
+  {
+    "no": "1507444",
+    "text": "Red Puniball Shore"
+  },
+  {
+    "no": "1507445",
+    "text": "Sapling Branch Shore"
+  },
+  {
+    "no": "1507446",
+    "text": "Honey Tree Branch Shore"
+  },
+  {
+    "no": "1507447",
+    "text": "Smoky Charcoal Shore"
+  },
+  {
+    "no": "1507448",
+    "text": "Sawe Fish Shore"
+  },
+  {
+    "no": "1507449",
+    "text": "Seven Stars Ruins"
+  },
+  {
+    "no": "1507450",
+    "text": "Kumine Fruit Ruins"
+  },
+  {
+    "no": "1507451",
+    "text": "Kumine Poison Ruins"
+  },
+  {
+    "no": "1507452",
+    "text": "Emerald Glass Ruins"
+  },
+  {
+    "no": "1507453",
+    "text": "Giant Beetle Ruins"
+  },
+  {
+    "no": "1507454",
+    "text": "Fragrant Honey Tree Ruins"
+  },
+  {
+    "no": "1507455",
+    "text": "Lunatic Poison Lance Ruins"
+  },
+  {
+    "no": "1507456",
+    "text": "Resentful Scream Ruins"
+  },
+  {
+    "no": "1507457",
+    "text": "Rotwood Miasma Ruins"
+  },
+  {
+    "no": "1507458",
+    "text": "Lapis Papillion Ruins"
+  },
+  {
+    "no": "1507459",
+    "text": "Soft Sand Remnants"
+  },
+  {
+    "no": "1507460",
+    "text": "Fairystone Fragment Remnants"
+  },
+  {
+    "no": "1507461",
+    "text": "Burning Sand Remnants"
+  },
+  {
+    "no": "1507462",
+    "text": "Polluted Humus Remnants"
+  },
+  {
+    "no": "1507463",
+    "text": "Bomb Dragoon Remnants"
+  },
+  {
+    "no": "1507464",
+    "text": "Rotten Tree Bark Remnants"
+  },
+  {
+    "no": "1507465",
+    "text": "Spear Worm Remnants"
+  },
+  {
+    "no": "1507466",
+    "text": "Underworld Core Remnants"
+  },
+  {
+    "no": "1507467",
+    "text": "Old Magic Tome Remnants"
+  },
+  {
+    "no": "1507468",
+    "text": "Holy Tree Leaf Remnants"
+  },
+  {
+    "no": "1507469",
+    "text": "Honey Ant Tower"
+  },
+  {
+    "no": "1507470",
+    "text": "Ashen Sand Tower"
+  },
+  {
+    "no": "1507471",
+    "text": "Rose Bee Tower"
+  },
+  {
+    "no": "1507472",
+    "text": "Mushroom Powder Tower"
+  },
+  {
+    "no": "1507473",
+    "text": "Sky Bubble Tower"
+  },
+  {
+    "no": "1507474",
+    "text": "Dark Crystal Fragment Tower"
+  },
+  {
+    "no": "1507475",
+    "text": "Gold Beehive Tower"
+  },
+  {
+    "no": "1507476",
+    "text": "Amber Fly Tower"
+  },
+  {
+    "no": "1507477",
+    "text": "Forest Sage Tower"
+  },
+  {
+    "no": "1507478",
+    "text": "Mythical Hide Tower"
+  },
+  {
+    "no": "1507479",
+    "text": "Wing Plant Locale"
+  },
+  {
+    "no": "1507480",
+    "text": "Beast Venom Pouch Locale"
+  },
+  {
+    "no": "1507481",
+    "text": "Lantern Fly Locale"
+  },
+  {
+    "no": "1507482",
+    "text": "Magic Tome Piece Locale"
+  },
+  {
+    "no": "1507483",
+    "text": "Crispy Mushroom Locale"
+  },
+  {
+    "no": "1507484",
+    "text": "Nectar Fruit Locale"
+  },
+  {
+    "no": "1507485",
+    "text": "Nightglow Flower Locale"
+  },
+  {
+    "no": "1507486",
+    "text": "Spring Princess Locale"
+  },
+  {
+    "no": "1507487",
+    "text": "Medium Medicine Locale"
+  },
+  {
+    "no": "1507488",
+    "text": "Esplante Locale"
+  },
+  {
+    "no": "1507489",
+    "text": "Lucky Clover Copse"
+  },
+  {
+    "no": "1507490",
+    "text": "Holy Arbor Branch Copse"
+  },
+  {
+    "no": "1507491",
+    "text": "Wasser Wheat Copse"
+  },
+  {
+    "no": "1507492",
+    "text": "Cotton Grass Copse"
+  },
+  {
+    "no": "1507493",
+    "text": "Bubble Grass Copse"
+  },
+  {
+    "no": "1507494",
+    "text": "Memorial Mist Flower Copse"
+  },
+  {
+    "no": "1507495",
+    "text": "Palma Copse"
+  },
+  {
+    "no": "1507496",
+    "text": "Gold Uni Copse"
+  },
+  {
+    "no": "1507497",
+    "text": "Rainbow Grape Copse"
+  },
+  {
+    "no": "1507498",
+    "text": "Lantern Grass Copse"
+  },
+  {
+    "no": "1507499",
+    "text": "Maple Leaf Copse"
+  },
+  {
+    "no": "1507500",
+    "text": "Fossil Tree Copse"
+  },
+  {
+    "no": "1507501",
+    "text": "Rosen Leaf Copse^00"
+  },
+  {
+    "no": "1507502",
+    "text": "Nameless Grass Copse"
+  },
+  {
+    "no": "1507503",
+    "text": "Eiche Copse"
+  },
+  {
+    "no": "1507504",
+    "text": "Tough Log Copse"
+  },
+  {
+    "no": "1507505",
+    "text": "Jupitonion Copse"
+  },
+  {
+    "no": "1507506",
+    "text": "Arbor Ivy Copse"
+  },
+  {
+    "no": "1507507",
+    "text": "Delphi Rose Copse"
+  },
+  {
+    "no": "1507508",
+    "text": "Northern Wind Flower Copse"
+  },
+  {
+    "no": "1507509",
+    "text": "Oil Tree Fruit Copse"
+  },
+  {
+    "no": "1507510",
+    "text": "Palma Fruit Copse"
+  },
+  {
+    "no": "1507511",
+    "text": "Mushroom Colony Copse"
+  },
+  {
+    "no": "1507512",
+    "text": "Dunkelheit Copse"
+  },
+  {
+    "no": "1507513",
+    "text": "Amber Crystal Cliff"
+  },
+  {
+    "no": "1507514",
+    "text": "Rainbow Gemstone Cliff"
+  },
+  {
+    "no": "1507515",
+    "text": "Aqua Ore Cliff"
+  },
+  {
+    "no": "1507516",
+    "text": "Flame Black Sand Cliff"
+  },
+  {
+    "no": "1507517",
+    "text": "Beast Shell Cliff"
+  },
+  {
+    "no": "1507518",
+    "text": "Cave Coral Cliff"
+  },
+  {
+    "no": "1507519",
+    "text": "Degenesis Stone Cliff"
+  },
+  {
+    "no": "1507520",
+    "text": "Goldinite Cliff"
+  },
+  {
+    "no": "1507521",
+    "text": "Lightning Ore Cliff"
+  },
+  {
+    "no": "1507522",
+    "text": "Unknown Gemstone Cliff"
+  },
+  {
+    "no": "1507523",
+    "text": "Shell Pearl Cliff"
+  },
+  {
+    "no": "1507524",
+    "text": "Coral Stone Cliff"
+  },
+  {
+    "no": "1507525",
+    "text": "Marbled Stone Cliff"
+  },
+  {
+    "no": "1507526",
+    "text": "Septrin Cliff"
+  },
+  {
+    "no": "1507527",
+    "text": "Nectar Rock Cliff"
+  },
+  {
+    "no": "1507528",
+    "text": "Waterside Moss Stone Cliff"
+  },
+  {
+    "no": "1507529",
+    "text": "Beast Fossil Cliff"
+  },
+  {
+    "no": "1507530",
+    "text": "Riverstone Cliff"
+  },
+  {
+    "no": "1507531",
+    "text": "Holy Arbor Crystal Cliff"
+  },
+  {
+    "no": "1507532",
+    "text": "Small Crystal Cliff"
+  },
+  {
+    "no": "1507533",
+    "text": "Large Bone Cliff"
+  },
+  {
+    "no": "1507534",
+    "text": "Ancient Pillar Cliff"
+  },
+  {
+    "no": "1507535",
+    "text": "Stalactite Fragment Cliff"
+  },
+  {
+    "no": "1507536",
+    "text": "Blue Flame Riverstone Cliff"
+  },
+  {
+    "no": "1507537",
+    "text": "Silver Puniball Outer Sea"
+  },
+  {
+    "no": "1507538",
+    "text": "Myrietes Fish Outer Sea"
+  },
+  {
+    "no": "1507539",
+    "text": "Sardine Outer Sea"
+  },
+  {
+    "no": "1507540",
+    "text": "Plant Essence Outer Sea"
+  },
+  {
+    "no": "1507541",
+    "text": "Selior Outer Sea"
+  },
+  {
+    "no": "1507542",
+    "text": "Maple Bark Outer Sea"
+  },
+  {
+    "no": "1507543",
+    "text": "Mace Fish Outer Sea"
+  },
+  {
+    "no": "1507544",
+    "text": "Underworld Master Outer Sea"
+  },
+  {
+    "no": "1507545",
+    "text": "Pretty Shell Outer Sea"
+  },
+  {
+    "no": "1507546",
+    "text": "Natural Oil Outer Sea"
+  },
+  {
+    "no": "1507547",
+    "text": "Palma Bark Outer Sea"
+  },
+  {
+    "no": "1507548",
+    "text": "Jade Water Outer Sea"
+  },
+  {
+    "no": "1507549",
+    "text": "Triplet Taun Outer Sea"
+  },
+  {
+    "no": "1507550",
+    "text": "Lake Master Outer Sea"
+  },
+  {
+    "no": "1507551",
+    "text": "Taun Outer Sea"
+  },
+  {
+    "no": "1507552",
+    "text": "Beast Fin Outer Sea"
+  },
+  {
+    "no": "1507553",
+    "text": "Xisor Outer Sea"
+  },
+  {
+    "no": "1507554",
+    "text": "Black Puniball Outer Sea"
+  },
+  {
+    "no": "1507555",
+    "text": "Ether Aqua Outer Sea"
+  },
+  {
+    "no": "1507556",
+    "text": "Clean Water Outer Sea^00"
+  },
+  {
+    "no": "1507557",
+    "text": "Exofish Outer Sea"
+  },
+  {
+    "no": "1507558",
+    "text": "Spikey Outer Sea"
+  },
+  {
+    "no": "1507559",
+    "text": "Medicine Moss Outer Sea"
+  },
+  {
+    "no": "1507560",
+    "text": "Mutant Taun Outer Sea"
+  },
+  {
+    "no": "1507561",
+    "text": "Palma Charcoal Site"
+  },
+  {
+    "no": "1507562",
+    "text": "Baby Wyrm Site"
+  },
+  {
+    "no": "1507563",
+    "text": "Trihorn Site"
+  },
+  {
+    "no": "1507564",
+    "text": "Kumine Poison Site"
+  },
+  {
+    "no": "1507565",
+    "text": "Dark Crystal Fragment Site"
+  },
+  {
+    "no": "1507566",
+    "text": "Rotwood Miasma Site"
+  },
+  {
+    "no": "1507567",
+    "text": "Beast Spirit Armor Site"
+  },
+  {
+    "no": "1507568",
+    "text": "Holy Stone Fragment Site"
+  },
+  {
+    "no": "1507569",
+    "text": "Seven Stars Site"
+  },
+  {
+    "no": "1507570",
+    "text": "Emerald Glass Site"
+  },
+  {
+    "no": "1507571",
+    "text": "Lunatic Poison Lance Site"
+  },
+  {
+    "no": "1507572",
+    "text": "Forest Sage Site"
+  },
+  {
+    "no": "1507573",
+    "text": "Death's Grief Site"
+  },
+  {
+    "no": "1507574",
+    "text": "Dragon Egg Site"
+  },
+  {
+    "no": "1507575",
+    "text": "Honey Ant Site"
+  },
+  {
+    "no": "1507576",
+    "text": "Giant Beetle Site"
+  },
+  {
+    "no": "1507577",
+    "text": "Gold Beehive Site"
+  },
+  {
+    "no": "1507578",
+    "text": "Lapis Papillion Site"
+  },
+  {
+    "no": "1507579",
+    "text": "Golden Crown Site"
+  },
+  {
+    "no": "1507580",
+    "text": "Gold Puniball Site"
+  },
+  {
+    "no": "1507581",
+    "text": "Ashen Sand Site"
+  },
+  {
+    "no": "1507582",
+    "text": "Sky Bubble Site"
+  },
+  {
+    "no": "1507583",
+    "text": "Amber Fly Site"
+  },
+  {
+    "no": "1507584",
+    "text": "Mythical Hide Site"
+  },
+  {
+    "no": "1507585",
+    "text": "Gold Uni Ravine"
+  },
+  {
+    "no": "1507586",
+    "text": "Golden Crown Ravine"
+  },
+  {
+    "no": "1507587",
+    "text": "Gold Beehive Ravine"
+  },
+  {
+    "no": "1507588",
+    "text": "Magma Powder Ravin"
+  },
+  {
+    "no": "1507589",
+    "text": "Delphi Rose Ravine"
+  },
+  {
+    "no": "1507590",
+    "text": "Rotwood Miasma Ravine"
+  },
+  {
+    "no": "1507591",
+    "text": "Underworld Master Ravine"
+  },
+  {
+    "no": "1507592",
+    "text": "Rainbow Gemstone Ravine"
+  },
+  {
+    "no": "1507593",
+    "text": "Septrin Domain"
+  },
+  {
+    "no": "1507594",
+    "text": "Polluted Humus Domain"
+  },
+  {
+    "no": "1507595",
+    "text": "Rosen Leaf Domain"
+  },
+  {
+    "no": "1507596",
+    "text": "Jade Water Domain"
+  },
+  {
+    "no": "1507597",
+    "text": "Ethereal Stone Domain"
+  },
+  {
+    "no": "1507598",
+    "text": "Atonement Stinger Domain"
+  },
+  {
+    "no": "1507599",
+    "text": "Palma Charcoal Domain"
+  },
+  {
+    "no": "1507600",
+    "text": "Death's Grief Domain"
   }
-}
+]
