@@ -5,11 +5,12 @@ interface IRepositoryItem {
   index: number;
 }
 type RepositoryItem<T> = T & IRepositoryItem;
+type RepositoryItems<T> = Array<RepositoryItem<T>>;
 type OrderByDirection = 'asc' | 'desc';
 type Pipeline<T> = (data: T[]) => T[];
 
 export class RepositoryQB<T> {
-  private _data: Array<RepositoryItem<T>> = [];
+  private _data: RepositoryItems<T> = [];
   private _pipeline: Array<Pipeline<RepositoryItem<T>>> = [];
 
   constructor(data: T[]) {
@@ -17,31 +18,31 @@ export class RepositoryQB<T> {
   }
 
   where(field: keyof RepositoryItem<T>, value: string | number) {
-    const pipe = (data: Array<RepositoryItem<T>>) => data.filter(x => x[field] === value);
+    const pipe = (data: RepositoryItems<T>) => data.filter(x => x[field] === value);
     this._pipeline.push(pipe);
     return this;
   }
 
   greaterThan(field: keyof RepositoryItem<T>, value: string | number) {
-    const pipe = (data: Array<RepositoryItem<T>>) => data.filter(x => x[field] > value);
+    const pipe = (data: RepositoryItems<T>) => data.filter(x => x[field] > value);
     this._pipeline.push(pipe);
     return this;
   }
 
   lessThan(field: keyof RepositoryItem<T>, value: string | number) {
-    const pipe = (data: Array<RepositoryItem<T>>) => data.filter(x => x[field] < value);
+    const pipe = (data: RepositoryItems<T>) => data.filter(x => x[field] < value);
     this._pipeline.push(pipe);
     return this;
   }
 
   orderBy(field: keyof RepositoryItem<T>, direction: OrderByDirection = 'asc') {
-    const pipe = (data: Array<RepositoryItem<T>>) => orderBy(data, x => x[field], direction);
+    const pipe = (data: RepositoryItems<T>) => orderBy(data, x => x[field], direction);
     this._pipeline.push(pipe);
     return this;
   }
 
   ilike(field: keyof RepositoryItem<T>, substring: string) {
-    const pipe = (data: Array<RepositoryItem<T>>) =>
+    const pipe = (data: RepositoryItems<T>) =>
       data.filter(x => {
         try {
           // Note:
