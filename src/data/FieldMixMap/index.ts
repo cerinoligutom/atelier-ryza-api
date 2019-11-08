@@ -1,5 +1,6 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
+import { RepositoryQB } from '../_common/query-builder';
 
 interface IFieldMixMapXML {
   Root: {
@@ -46,4 +47,5 @@ export const preprocessFieldMixMap = async () => {
   );
 };
 
-export const fieldMixMap = getProcessedData<IFieldMixMap[]>(FILE_NAME, __dirname);
+const fieldMixMap = getProcessedData<IFieldMixMap[]>(FILE_NAME, __dirname);
+export const qbFieldMixMap = new RepositoryQB<IFieldMixMap>(fieldMixMap);

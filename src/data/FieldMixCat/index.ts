@@ -1,5 +1,6 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
+import { RepositoryQB } from '../_common/query-builder';
 
 interface IFieldMixCatXML {
   Root: {
@@ -34,4 +35,5 @@ export const preprocessFieldMixCat = async () => {
   );
 };
 
-export const fieldMixCat = getProcessedData<IFieldMixCat[]>(FILE_NAME, __dirname);
+const fieldMixCat = getProcessedData<IFieldMixCat[]>(FILE_NAME, __dirname);
+export const qbFieldMixCat = new RepositoryQB<IFieldMixCat>(fieldMixCat);

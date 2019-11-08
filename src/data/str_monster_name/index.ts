@@ -1,5 +1,6 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
+import { RepositoryQB } from '../_common/query-builder';
 
 interface IStrMonsterNameXML {
   Root: {
@@ -34,4 +35,5 @@ export const preprocessStrMonsterName = async () => {
   );
 };
 
-export const strMonsterName = getProcessedData<IStrMonsterName[]>(FILE_NAME, __dirname);
+const strMonsterName = getProcessedData<IStrMonsterName[]>(FILE_NAME, __dirname);
+export const qbStrMonsterName = new RepositoryQB<IStrMonsterName>(strMonsterName);

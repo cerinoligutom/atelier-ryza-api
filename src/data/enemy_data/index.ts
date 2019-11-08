@@ -1,5 +1,6 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
+import { RepositoryQB } from '../_common/query-builder';
 
 interface IEnemyDataXML {
   Root: {
@@ -48,4 +49,5 @@ export const preprocessEnemyData = async () => {
   );
 };
 
-export const enemyData = getProcessedData<IEnemyData[]>(FILE_NAME, __dirname);
+const enemyData = getProcessedData<IEnemyData[]>(FILE_NAME, __dirname);
+export const qbEnemyData = new RepositoryQB<IEnemyData>(enemyData);

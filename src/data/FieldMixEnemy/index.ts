@@ -1,5 +1,6 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
+import { RepositoryQB } from '../_common/query-builder';
 
 interface IFieldMixEnemyXML {
   Root: {
@@ -37,4 +38,5 @@ export const preprocessFieldMixEnemy = async () => {
   );
 };
 
-export const fieldMixEnemy = getProcessedData<IFieldMixEnemy[]>(FILE_NAME, __dirname);
+const fieldMixEnemy = getProcessedData<IFieldMixEnemy[]>(FILE_NAME, __dirname);
+export const qbFieldMixEnemy = new RepositoryQB<IFieldMixEnemy>(fieldMixEnemy);
