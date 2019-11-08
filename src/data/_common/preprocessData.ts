@@ -1,6 +1,5 @@
 import fs from 'fs';
 import { xml2json } from './xml2json';
-import { string } from 'yup';
 
 export const preprocessData = async <T, R>(fileName: string, filePath: string, cb: (jsonData: T) => R): Promise<R> => {
   return new Promise(async (resolve, reject) => {
