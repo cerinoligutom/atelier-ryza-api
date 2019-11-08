@@ -35,4 +35,4 @@ preprocessData<IFieldMixEnemyXML, IFieldMixEnemy[]>(FILE_NAME, __dirname, data =
   }),
 );
 
-export const fieldMixEnemy = getProcessedData(FILE_NAME, __dirname);
+export const fieldMixEnemy = getProcessedData<IFieldMixEnemy[]>(FILE_NAME, __dirname);

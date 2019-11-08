@@ -32,4 +32,4 @@ preprocessData<IStrFieldMixMapXML, IStrFieldMixMap[]>(FILE_NAME, __dirname, data
   }),
 );
 
-export const strFieldMixMap = getProcessedData(FILE_NAME, __dirname);
+export const strFieldMixMap = getProcessedData<IStrFieldMixMap[]>(FILE_NAME, __dirname);

@@ -32,4 +32,4 @@ preprocessData<IFieldMixCatXML, IFieldMixCat[]>(FILE_NAME, __dirname, data =>
   }),
 );
 
-export const fieldMixCat = getProcessedData(FILE_NAME, __dirname);
+export const fieldMixCat = getProcessedData<IFieldMixCat[]>(FILE_NAME, __dirname);

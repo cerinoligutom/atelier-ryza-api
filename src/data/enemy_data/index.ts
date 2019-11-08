@@ -46,4 +46,4 @@ preprocessData<IEnemyDataXML, IEnemyData[]>(FILE_NAME, __dirname, data =>
   }),
 );
 
-export const enemyData = getProcessedData(FILE_NAME, __dirname);
+export const enemyData = getProcessedData<IEnemyData[]>(FILE_NAME, __dirname);

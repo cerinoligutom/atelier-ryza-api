@@ -44,4 +44,4 @@ preprocessData<IFieldMixMapXML, IFieldMixMap[]>(FILE_NAME, __dirname, data =>
   }),
 );
 
-export const fieldMixMap = getProcessedData(FILE_NAME, __dirname);
+export const fieldMixMap = getProcessedData<IFieldMixMap[]>(FILE_NAME, __dirname);

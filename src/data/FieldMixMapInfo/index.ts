@@ -45,4 +45,4 @@ preprocessData<IFieldMixMapInfoXML, IFieldMixMapInfo[]>(FILE_NAME, __dirname, da
   }),
 );
 
-export const fieldMixMapInfo = getProcessedData(FILE_NAME, __dirname);
+export const fieldMixMapInfo = getProcessedData<IFieldMixMapInfo[]>(FILE_NAME, __dirname);

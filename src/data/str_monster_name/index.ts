@@ -32,4 +32,4 @@ preprocessData<IStrMonsterNameXML, IStrMonsterName[]>(FILE_NAME, __dirname, data
   }),
 );
 
-export const strMonsterName = getProcessedData(FILE_NAME, __dirname);
+export const strMonsterName = getProcessedData<IStrMonsterName[]>(FILE_NAME, __dirname);
