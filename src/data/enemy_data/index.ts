@@ -1,6 +1,7 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
 import { RepositoryQB } from '../_common/query-builder';
+import { qbStrMonsterName } from '../str_monster_name';
 
 interface IEnemyDataXML {
   Root: {
@@ -28,13 +29,14 @@ interface IEnemyData {
   monsterTag: string;
   characterTag: string;
   raceTag: string;
+  monsterName: string;
 }
 
 const FILE_NAME = 'enemy_data';
 
 export const preprocessEnemyData = async () => {
   return preprocessData<IEnemyDataXML, IEnemyData[]>(FILE_NAME, __dirname, data =>
-    data.Root.enemy_data.map(x => {
+    data.Root.enemy_data.map((x, i) => {
       const { name_id, monster_tag, chara_tag, race_tag } = x.$;
 
       const processedData: IEnemyData = {
@@ -42,6 +44,7 @@ export const preprocessEnemyData = async () => {
         monsterTag: monster_tag,
         characterTag: chara_tag,
         raceTag: race_tag,
+        monsterName: qbStrMonsterName.where('index', i).first()?.text,
       };
 
       return processedData;

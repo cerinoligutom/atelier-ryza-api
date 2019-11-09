@@ -1,0 +1,10 @@
+type EnemyBoss {
+  name: String
+  type: EnemyBossType
+}
+
+enum EnemyBossType {
+  REGULAR
+  RAVINE
+  DOMAIN
+}

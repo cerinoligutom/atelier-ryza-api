@@ -1,6 +1,8 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
 import { RepositoryQB } from '../_common/query-builder';
+import { qbStrFieldMixMap } from '../str_field_mix_map';
+import { qbSubitems } from '../_subitems';
 
 interface IFieldMixMapXML {
   Root: {
@@ -18,13 +20,16 @@ interface IFieldMixMapXML {
   };
 }
 
-interface IFieldMixMap {
+export interface IFieldMixMap {
   no: string;
   level: number;
   cost: number;
   password: string;
   fieldMixMapInfoNo: string;
-  subItem: string;
+  subItemId: string;
+  primaryItemName: string;
+  secondaryItemName: string;
+  mapName: string;
 }
 
 const FILE_NAME = 'FieldMixMap';
@@ -32,14 +37,21 @@ const FILE_NAME = 'FieldMixMap';
 export const preprocessFieldMixMap = async () => {
   return preprocessData<IFieldMixMapXML, IFieldMixMap[]>(FILE_NAME, __dirname, data =>
     data.Root.FieldMixMap.map(x => {
-      const { No, l, g, p, i, s } = x.$;
+      const { No, l: level, g: cost, p: password, i: index, s: subItemId } = x.$;
+
+      const { primaryItemName, mapName } = qbStrFieldMixMap.where('index', +index).first();
+      const secondaryItemName = qbSubitems.where('id', subItemId).first().name;
+
       const processedData: IFieldMixMap = {
+        password,
+        subItemId,
+        primaryItemName,
+        secondaryItemName,
+        mapName,
         no: No,
-        level: +l,
-        cost: +g,
-        password: p,
-        fieldMixMapInfoNo: i,
-        subItem: s,
+        level: +level,
+        cost: +cost,
+        fieldMixMapInfoNo: index,
       };
 
       return processedData;

@@ -23,6 +23,13 @@ export class RepositoryQB<T> {
     return this;
   }
 
+  whereIn(field: keyof RepositoryItem<T>, values: Array<string | number>) {
+    const _values = values.map(x => x.toString());
+    const pipe = (data: RepositoryItems<T>) => data.filter(x => _values.includes(`${x[field]}`));
+    this._pipeline.push(pipe);
+    return this;
+  }
+
   greaterThan(field: keyof RepositoryItem<T>, value: string | number) {
     const pipe = (data: RepositoryItems<T>) => data.filter(x => x[field] > value);
     this._pipeline.push(pipe);
@@ -41,7 +48,7 @@ export class RepositoryQB<T> {
     return this;
   }
 
-  ilike(field: keyof RepositoryItem<T>, substring: string) {
+  like(field: keyof RepositoryItem<T>, substring: string) {
     const pipe = (data: RepositoryItems<T>) =>
       data.filter(x => {
         try {
