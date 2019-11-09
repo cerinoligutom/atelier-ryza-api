@@ -15,7 +15,7 @@ export const monsterResolver: GQL_PasswordResultResolvers['monster'] = async (pa
       const enemy = await enemyById.load(fieldMixEnemy.monsterTag);
 
       return {
-        name: enemy ? enemy.monsterName : null,
+        name: enemy?.monsterName,
       } as GQL_EnemyMonster;
     }
   }

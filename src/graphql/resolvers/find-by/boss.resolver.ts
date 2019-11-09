@@ -30,7 +30,7 @@ export const bossResolver: GQL_PasswordResultResolvers['boss'] = async (parent, 
       }
 
       return {
-        name: enemy ? enemy.monsterName : null,
+        name: enemy?.monsterName,
         type: bossType,
       } as GQL_EnemyBoss;
     }

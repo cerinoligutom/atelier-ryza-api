@@ -40,7 +40,7 @@ export const initApolloGraphqlServer = (app: Express) => {
 
       // Query/Mutation Resolver (check from "req")
       const payload = jwtUtil.validateToken(req.headers.authorization);
-      const userId = payload ? payload.userId : null;
+      const userId = payload?.userId ?? null;
       graphqlContext.userId = userId;
 
       return graphqlContext;
