@@ -75,10 +75,12 @@ export type GQL_QueryNodeArgs = {
 
 export type GQL_QueryPasswordArgs = {
   input: Scalars['String'];
+  levelLimit?: Maybe<Scalars['Int']>;
 };
 
 export type GQL_QueryItemNameArgs = {
   input: Scalars['String'];
+  levelLimit?: Maybe<Scalars['Int']>;
 };
 
 export type GQL_Subscription = {
@@ -158,8 +160,8 @@ export type GQL_ResolversTypes = {
   ID: ResolverTypeWrapper<Scalars['ID']>;
   Node: ResolverTypeWrapper<GQL_Node>;
   String: ResolverTypeWrapper<Scalars['String']>;
-  PasswordResult: ResolverTypeWrapper<GQL_PasswordResult>;
   Int: ResolverTypeWrapper<Scalars['Int']>;
+  PasswordResult: ResolverTypeWrapper<GQL_PasswordResult>;
   ItemDrop: ResolverTypeWrapper<GQL_ItemDrop>;
   EnemyMonster: ResolverTypeWrapper<GQL_EnemyMonster>;
   EnemyBoss: ResolverTypeWrapper<GQL_EnemyBoss>;
@@ -180,8 +182,8 @@ export type GQL_ResolversParentTypes = {
   ID: Scalars['ID'];
   Node: GQL_Node;
   String: Scalars['String'];
-  PasswordResult: GQL_PasswordResult;
   Int: Scalars['Int'];
+  PasswordResult: GQL_PasswordResult;
   ItemDrop: GQL_ItemDrop;
   EnemyMonster: GQL_EnemyMonster;
   EnemyBoss: GQL_EnemyBoss;
@@ -266,8 +268,18 @@ export type GQL_QueryResolvers<
   ParentType extends GQL_ResolversParentTypes['Query'] = GQL_ResolversParentTypes['Query']
 > = {
   node?: Resolver<Maybe<GQL_ResolversTypes['Node']>, ParentType, ContextType, RequireFields<GQL_QueryNodeArgs, 'id'>>;
-  password?: Resolver<Array<GQL_ResolversTypes['PasswordResult']>, ParentType, ContextType, RequireFields<GQL_QueryPasswordArgs, 'input'>>;
-  itemName?: Resolver<Array<GQL_ResolversTypes['PasswordResult']>, ParentType, ContextType, RequireFields<GQL_QueryItemNameArgs, 'input'>>;
+  password?: Resolver<
+    Array<GQL_ResolversTypes['PasswordResult']>,
+    ParentType,
+    ContextType,
+    RequireFields<GQL_QueryPasswordArgs, 'input' | 'levelLimit'>
+  >;
+  itemName?: Resolver<
+    Array<GQL_ResolversTypes['PasswordResult']>,
+    ParentType,
+    ContextType,
+    RequireFields<GQL_QueryItemNameArgs, 'input' | 'levelLimit'>
+  >;
   _dummy?: Resolver<Maybe<GQL_ResolversTypes['String']>, ParentType, ContextType>;
 };
 

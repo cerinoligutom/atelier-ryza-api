@@ -3,10 +3,10 @@ import { IFieldMixMap } from '@app/data';
 
 type PasswordResult = GQL_PasswordResult & IFieldMixMap;
 
-export const passwordResolver: GQL_QueryResolvers['password'] = async (_, { input }, { services }) => {
+export const passwordResolver: GQL_QueryResolvers['password'] = async (_, { input, levelLimit }, { services }) => {
   const { bottlePasswordsService } = services;
 
-  const results = bottlePasswordsService.getByPassword(input);
+  const results = bottlePasswordsService.getByPassword(input, levelLimit);
 
   return results as PasswordResult[];
 };
