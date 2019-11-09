@@ -23,7 +23,7 @@ interface IFieldMixMap {
   level: number;
   cost: number;
   password: string;
-  fieldMixMapInfo: string;
+  fieldMixMapInfoNo: string;
   subItem: string;
 }
 
@@ -38,7 +38,7 @@ export const preprocessFieldMixMap = async () => {
         level: +l,
         cost: +g,
         password: p,
-        fieldMixMapInfo: i,
+        fieldMixMapInfoNo: i,
         subItem: s,
       };
 

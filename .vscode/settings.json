@@ -7,6 +7,8 @@
     "dataloaders",
     "dockerignore",
     "encount",
+    "enemy",
+    "fldmix",
     "gitignore",
     "graphql",
     "maxsize",
@@ -16,7 +18,8 @@
     "prettierrc",
     "printf",
     "pubsub",
-    "ryza"
+    "ryza",
+    "symbol"
   ],
   "typescript.tsdk": "node_modules\\typescript\\lib"
 }

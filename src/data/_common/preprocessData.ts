@@ -14,6 +14,8 @@ export const preprocessData = async <T, R>(fileName: string, filePath: string, c
         return;
       }
 
+      console.info(`Successfully written ${FILE_PATH}`);
+
       resolve(processedData);
     });
   });
