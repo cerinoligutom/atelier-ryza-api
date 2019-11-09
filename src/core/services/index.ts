@@ -1,2 +1,1 @@
-// TODO: Temporary value
-export const services = {};
+export * from './bottle-passwords/bottle-passwords.service';

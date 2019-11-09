@@ -15,7 +15,7 @@ interface IStrFieldMixMapXML {
 
 interface IStrFieldMixMap {
   no: string;
-  text: string;
+  mapName: string;
 }
 
 const FILE_NAME = 'str_field_mix_map';
@@ -25,9 +25,14 @@ export const preprocessStrFieldMixMap = async () => {
     data.Root.str.map(x => {
       const { String_No, Text } = x.$;
 
+      // Handle mapName
+      let mapName = Text;
+      mapName = mapName.replace('^00', ''); // Remove ^00
+      mapName = mapName.endsWith('Ravin') ? mapName.replace('Ravin', 'Ravine') : mapName;
+
       const processedData: IStrFieldMixMap = {
+        mapName,
         no: String_No,
-        text: Text,
       };
 
       return processedData;

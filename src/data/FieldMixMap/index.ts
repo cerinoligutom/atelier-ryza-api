@@ -24,7 +24,7 @@ interface IFieldMixMap {
   cost: number;
   password: string;
   fieldMixMapInfoNo: string;
-  subItem: string;
+  subItemId: string;
 }
 
 const FILE_NAME = 'FieldMixMap';
@@ -39,7 +39,7 @@ export const preprocessFieldMixMap = async () => {
         cost: +g,
         password: p,
         fieldMixMapInfoNo: i,
-        subItem: s,
+        subItemId: s,
       };
 
       return processedData;
