@@ -41,7 +41,7 @@ export class RepositoryQB<T> {
     return this;
   }
 
-  ilike(field: keyof RepositoryItem<T>, substring: string) {
+  like(field: keyof RepositoryItem<T>, substring: string) {
     const pipe = (data: RepositoryItems<T>) =>
       data.filter(x => {
         try {
