@@ -7,7 +7,6 @@ import {
   preprocessFieldMixMapInfo,
   preprocessStrFieldMixMap,
   preprocessStrMonsterName,
-  preprocessFieldMixMapItems,
 } from '@app/data';
 
 const start = async () => {
@@ -19,7 +18,6 @@ const start = async () => {
     preprocessFieldMixMapInfo(),
     preprocessStrFieldMixMap(),
     preprocessStrMonsterName(),
-    preprocessFieldMixMapItems(),
   ]);
 
   console.info('Preprocessing successful');

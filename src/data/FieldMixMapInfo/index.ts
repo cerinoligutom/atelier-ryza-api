@@ -22,7 +22,7 @@ interface IFieldMixMapInfoXML {
   };
 }
 
-interface IFieldMixMapInfo {
+export interface IFieldMixMapInfo {
   no: string;
   stringId: string;
   enemyId: string;

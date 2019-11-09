@@ -11,4 +11,3 @@ export * from './FieldMixMap';
 export * from './FieldMixMapInfo';
 export * from './str_field_mix_map';
 export * from './str_monster_name';
-export * from './_field-mix-map-items';

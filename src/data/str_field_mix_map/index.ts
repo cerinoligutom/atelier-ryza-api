@@ -1,6 +1,8 @@
 import { preprocessData } from '../_common/preprocessData';
 import { getProcessedData } from '../_common/getProcessedData';
 import { RepositoryQB } from '../_common/query-builder';
+import { MAP_SUFFIXES } from './map-suffixes';
+import { NAME_FIXES } from './name-fixes';
 
 interface IStrFieldMixMapXML {
   Root: {
@@ -16,6 +18,7 @@ interface IStrFieldMixMapXML {
 interface IStrFieldMixMap {
   no: string;
   mapName: string;
+  primaryItemName: string;
 }
 
 const FILE_NAME = 'str_field_mix_map';
@@ -30,8 +33,23 @@ export const preprocessStrFieldMixMap = async () => {
       mapName = mapName.replace('^00', ''); // Remove ^00
       mapName = mapName.endsWith('Ravin') ? mapName.replace('Ravin', 'Ravine') : mapName;
 
+      // Apparently, the "areaName" value contains both the item and map type.
+      // We'll have to split this, the pattern is consistent with "Primary Item" + "Map Type".
+      // A list of suffixes (map type) is hard-coded to aid with this.
+
+      // Handle primaryItemName
+      let primaryItemName = mapName;
+      for (const suffix of MAP_SUFFIXES) {
+        if (primaryItemName.endsWith(suffix)) {
+          primaryItemName = primaryItemName.replace(suffix, '').trim();
+          break;
+        }
+      }
+      primaryItemName = NAME_FIXES[primaryItemName] ? NAME_FIXES[primaryItemName] : primaryItemName;
+
       const processedData: IStrFieldMixMap = {
         mapName,
+        primaryItemName,
         no: String_No,
       };
 
