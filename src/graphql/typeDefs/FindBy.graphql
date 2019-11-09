@@ -1,3 +1,4 @@
 extend type Query {
   password(input: String!): [PasswordResult!]!
+  itemName(input: String!): [PasswordResult!]!
 }

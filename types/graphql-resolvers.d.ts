@@ -65,6 +65,7 @@ export type GQL_Query = {
   __typename?: 'Query';
   node?: Maybe<GQL_Node>;
   password: Array<GQL_PasswordResult>;
+  itemName: Array<GQL_PasswordResult>;
   _dummy?: Maybe<Scalars['String']>;
 };
 
@@ -73,6 +74,10 @@ export type GQL_QueryNodeArgs = {
 };
 
 export type GQL_QueryPasswordArgs = {
+  input: Scalars['String'];
+};
+
+export type GQL_QueryItemNameArgs = {
   input: Scalars['String'];
 };
 
@@ -262,6 +267,7 @@ export type GQL_QueryResolvers<
 > = {
   node?: Resolver<Maybe<GQL_ResolversTypes['Node']>, ParentType, ContextType, RequireFields<GQL_QueryNodeArgs, 'id'>>;
   password?: Resolver<Array<GQL_ResolversTypes['PasswordResult']>, ParentType, ContextType, RequireFields<GQL_QueryPasswordArgs, 'input'>>;
+  itemName?: Resolver<Array<GQL_ResolversTypes['PasswordResult']>, ParentType, ContextType, RequireFields<GQL_QueryItemNameArgs, 'input'>>;
   _dummy?: Resolver<Maybe<GQL_ResolversTypes['String']>, ParentType, ContextType>;
 };
 
