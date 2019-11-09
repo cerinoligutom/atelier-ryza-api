@@ -6,7 +6,7 @@ type PasswordResult = GQL_PasswordResult & IFieldMixMap;
 export const passwordResolver: GQL_QueryResolvers['password'] = async (_, { input }, { services }) => {
   const { bottlePasswordsService } = services;
 
-  const results = await bottlePasswordsService.getByPassword(input);
+  const results = bottlePasswordsService.getByPassword(input);
 
   return results as PasswordResult[];
 };
