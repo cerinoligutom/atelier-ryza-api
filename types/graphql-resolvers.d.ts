@@ -59,6 +59,7 @@ export type GQL_PasswordResult = {
   secondaryItem?: Maybe<GQL_ItemDrop>;
   monster?: Maybe<GQL_EnemyMonster>;
   boss?: Maybe<GQL_EnemyBoss>;
+  mapName?: Maybe<Scalars['String']>;
 };
 
 export type GQL_Query = {
@@ -261,6 +262,7 @@ export type GQL_PasswordResultResolvers<
   secondaryItem?: Resolver<Maybe<GQL_ResolversTypes['ItemDrop']>, ParentType, ContextType>;
   monster?: Resolver<Maybe<GQL_ResolversTypes['EnemyMonster']>, ParentType, ContextType>;
   boss?: Resolver<Maybe<GQL_ResolversTypes['EnemyBoss']>, ParentType, ContextType>;
+  mapName?: Resolver<Maybe<GQL_ResolversTypes['String']>, ParentType, ContextType>;
 };
 
 export type GQL_QueryResolvers<
