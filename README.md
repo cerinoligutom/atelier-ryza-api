@@ -2,23 +2,23 @@
 
 GraphQL API for Atelier Ryza: Password Finder.
 
-This project is a stripped down version of this [GraphQL Starter boilerplate](https://github.com/cerino-ligutom/GraphQL-Starter).
+This is based on and a stripped down version of [GraphQL Starter boilerplate](https://github.com/cerino-ligutom/GraphQL-Starter).
 
 ## Getting Started
 
-### Install dependencies
+Install dependencies
 ```bash
 npm install
 ```
 
-### Run directly on your machine
+Run directly on your machine
 ```bash
 npm start
 ```
 
-OR
+### OR
 
-### Run with Docker
+Run with Docker
 ```bash
 # Build the project for the first time or when you add dependencies
 docker-compose build
