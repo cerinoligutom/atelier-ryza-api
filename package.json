@@ -22,7 +22,7 @@
     "name": "Cerino O. Ligutom III",
     "url": "https://www.zeferinix.com"
   },
-  "license": "MIT",
+  "license": "GNU GPL V3",
   "bugs": {
     "url": "https://github.com/cerino-ligutom/atelier-ryza-api/issues"
   },
@@ -62,7 +62,7 @@
     "lint-staged": "^9.4.2",
     "nodemon": "^1.19.4",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.18.2",
+    "prettier": "^1.19.1",
     "rimraf": "^3.0.0",
     "tsconfig-paths": "^3.9.0",
     "tslint": "^5.20.1",

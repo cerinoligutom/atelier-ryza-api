@@ -1,15 +1,34 @@
-# Atelier Ryza API
+# Atelier Ryza: Password Finder GraphQL API
 
-Chain of command:
+GraphQL API for Atelier Ryza: Password Finder.
 
+This is based on and a stripped down version of [GraphQL Starter boilerplate](https://github.com/cerino-ligutom/GraphQL-Starter).
+
+## Getting Started
+
+Install dependencies
+```bash
+npm install
 ```
-<FieldMixMap ... i="0" ...
 
-<FieldMixMapInfo No="0" .. enemy="FIELD_MIX_ENEMY_10" ..
-
-<FieldMixEnemy No="10" enemySymbolTag="ENEMY_SYMBOL_FLDMIX_SYMBOL_PUNI_00" ..
-
-<enemy_data name_id="STR_MONSTER_NAME_000" ... monster_tag="MONSTER_PUNI_00"
-
-[from STR_MONSTER_NAME_<index>] <str String_No="19791873" Text="Blue Puni"/>
+Run directly on your machine
+```bash
+npm start
 ```
+
+### OR
+
+Run with Docker
+```bash
+# Build the project for the first time or when you add dependencies
+docker-compose build
+
+# Start the application (or to restart after making changes to the source code)
+docker-compose up
+```
+
+**Note:** You might be prompted to share your drive with Docker if you haven't done so previously. The drive letter you need to share in this case would be the drive letter of where this repository resides.
+
+## Data/Process Workflow
+
+See this [diagram](https://tinyurl.com/ryza-pw-finder-v1-0).

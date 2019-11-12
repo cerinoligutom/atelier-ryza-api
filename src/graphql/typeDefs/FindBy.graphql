@@ -1,0 +1,4 @@
+extend type Query {
+  password(input: String!, levelLimit: Int = 100): [PasswordResult!]!
+  itemName(input: String!, levelLimit: Int = 100): [PasswordResult!]!
+}

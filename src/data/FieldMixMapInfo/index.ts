@@ -22,7 +22,7 @@ interface IFieldMixMapInfoXML {
   };
 }
 
-interface IFieldMixMapInfo {
+export interface IFieldMixMapInfo {
   no: string;
   stringId: string;
   enemyId: string;
@@ -37,8 +37,8 @@ export const preprocessFieldMixMapInfo = async () => {
       const { No, stringID, enemy, boss } = x.$;
 
       const processedData: IFieldMixMapInfo = {
-        bossId: boss,
-        enemyId: enemy,
+        bossId: boss.replace('FIELD_MIX_ENEMY_', ''), // Remove "FIELD_MIX_ENEMY_" prefix to get the IDs
+        enemyId: enemy.replace('FIELD_MIX_ENEMY_', ''), // Remove "FIELD_MIX_ENEMY_" prefix to get the IDs
         no: No,
         stringId: stringID,
       };

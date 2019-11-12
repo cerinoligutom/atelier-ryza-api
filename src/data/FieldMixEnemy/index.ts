@@ -16,7 +16,7 @@ interface IFieldMixEnemyXML {
 
 interface IFieldMixEnemy {
   no: string;
-  enemySymbolTag: string;
+  monsterTag: string;
   encounterGroupTag: string;
 }
 
@@ -28,7 +28,7 @@ export const preprocessFieldMixEnemy = async () => {
       const { No, encountGroupTag, enemySymbolTag } = x.$;
 
       const processedData: IFieldMixEnemy = {
-        enemySymbolTag,
+        monsterTag: enemySymbolTag.replace('ENEMY_SYMBOL_FLDMIX_SYMBOL_', 'MONSTER_'), // Replace "ENEMY_SYMBOL_FLDMIX_SYMBOL_" prefix with "MONSTER_" to get the monsterTag
         no: No,
         encounterGroupTag: encountGroupTag,
       };
