@@ -14,6 +14,12 @@ enum EnvironmentOptions {
   LOCAL = 'LOCAL',
 }
 
+const currentEnvironment = (process.env.CURRENT_ENVIRONMENT || EnvironmentOptions.LOCAL).toLocaleUpperCase();
+
+if (currentEnvironment === EnvironmentOptions.PRODUCTION) {
+  process.env.NODE_ENV = 'production';
+}
+
 const isProduction = process.env.NODE_ENV === 'production';
 const DEFAULT_APP_PORT = 8080;
 
@@ -30,8 +36,6 @@ const ENVIRONMENT_CONFIG: IEnvironmentConfig = {
     port: +process.env.LOCAL_APP_PORT! || DEFAULT_APP_PORT,
   },
 };
-
-const currentEnvironment = (process.env.CURRENT_ENVIRONMENT || EnvironmentOptions.LOCAL).toLocaleUpperCase();
 
 const VALID_ENVIRONMENTS = Object.values<string>(EnvironmentOptions);
 if (!VALID_ENVIRONMENTS.includes(currentEnvironment)) {
