@@ -28,6 +28,11 @@ const startApp = async () => {
   app.use(errorMiddleware());
   const apolloServer = initApolloGraphqlServer(app);
 
+  // Redirect all GET requests to /graphql
+  app.get('*', (req, res) => {
+    res.redirect('/graphql');
+  });
+
   // For the subscription server
   const httpServer = createServer(app);
   apolloServer.installSubscriptionHandlers(httpServer);
