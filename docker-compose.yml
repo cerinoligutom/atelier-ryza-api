@@ -9,5 +9,5 @@ services:
       - /usr/src/app/node_modules # https://stackoverflow.com/a/32785014
 
     ports:
-      - '8081:8080'
+      - '8080:8080'
       - '9229:9229'
